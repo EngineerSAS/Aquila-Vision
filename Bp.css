@@ -1,0 +1,727 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* leftsidecontiner */
+.left-container{
+    background-color: grey;
+    width: 20vw;
+    height: 90vh;
+    /* padding: 50px; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow-y: auto;
+}
+.tabs{
+    font-size: 30px;
+    margin-left: 6vw;
+    font-weight: 900;
+    color: black;
+}
+.bpvest1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    /* height: -8vh; */
+}
+.bpvest1 img{
+    width: 3vw;
+    margin-right: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    padding-top: -7vh;
+}
+.one button{
+    background-color: red;
+    padding: 0 30px;
+    height: 3vh;
+}
+.one p{
+    margin-left: 7px;
+}
+.bpvest1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest2{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px; */
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.bpvest2 img{
+    width: 3vw;
+    margin-right: 10px;
+}
+.bpvest2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    padding-top: -7vh;
+
+
+}
+.two button{
+    background-color: green;
+    padding: 0 30px;
+    height: 3vh;
+}
+.bpvest3{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest4{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: red;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest4:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest5{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .five{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest5:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest6{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .six{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest6:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest7{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .seven{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest7:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest8{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: red;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .eight{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest8:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest9{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .nine{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest9:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest10{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .ten{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest10:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest11{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .eleven{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest11:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest12{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .twelve{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest12:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest13{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: red;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .thirteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest13:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest14{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .fourteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest14:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest15{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .fifteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest15:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest16{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .sixteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest16:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest17{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .seventeen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest17:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest18{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .eighteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest18:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest19{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: green;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .nineteen{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest19:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bpvest20{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 20px;
+    img{
+        width: 3vw;
+        margin-right: 10px;
+    }
+    
+    button{
+        background-color: red;
+        padding: 0 30px;
+        height: 3vh;
+    }
+    .twenty{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        padding-top: -7vh;
+    } 
+}
+.bpvest20:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.leftdown{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 8vw;
+    margin-left: 2vw;
+    
+    .firststatusofbpid{
+        display: flex;
+        flex-direction: column;
+        .percentageofgreen{
+            font-size: 30px;
+            margin-left: 1.5vw;
+        }
+        .greenstatusofbpid{
+            background-color: green;
+            padding: 0 30px;
+            height: 3vh;
+        }
+
+    }
+    .secondstatusofbpid{
+        display: flex;
+        flex-direction: column;
+        .percentageofred{
+            font-size: 30px;
+            margin-left: 1.5vw;
+
+        }
+        .redstatusofbpid{
+            background-color: red;
+            padding: 0 30px;
+            height: 3vh;
+        }
+
+    }
+}
+
+/* endofleftcontainer */
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+.upup{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 80vw;
+    .NAf{
+        width: 4vw;
+    }
+    .NCA{
+        width: 4vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: lightgray;
+        width: 80vw;
+        border-radius: 1rem;
+        .buttonmenu{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            border: none;
+            background-color: grey;
+            color: lightgray;
+            border-radius: 8px;
+            cursor: pointer;
+            .menu{
+                width: 2vw;
+            }
+            :hover{
+                background-color: black;
+                cursor: pointer;
+            }
+        }
+        
+    }
+    
+}
+.rightup{
+    display: flex;
+    flex-direction: column;
+
+}
+.Title{
+    margin-right: 25vw;
+}
+.rightright{
+    display: flex;
+    flex-direction: column;
+}
+#map {
+    height: 60vh;
+    width: 80vw;
+    
+}
+.rightdown{
+    display: flex;
+    flex-direction: row;
+}
+
+#alerts{
+    width: 30vw;
+    padding: 15px 20px;
+    
+    background-color: lightgray;
+    position: relative;
+    height: 35vh;
+    
+    overflow: auto;
+}
+
+#alerts h2 {
+    color: #e74c3c;
+    margin-top: 0;
+}
+
+#alert-list {
+    list-style-type: none;
+    padding: 0;
+
+}
+h2 {
+    color: #f5f5f5;
+}
+#heart-rate {
+    font-size: 40px;
+    color: #f44336;
+}
+.status {
+    font-size: 20px;
+    color: #f5f5f5;
+}
+canvas {
+    /* border: 2px solid #444; */
+    background-color: #000;
+    display: block;
+    margin: px auto;
+    
+}
+
+
+
+.alert-item {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    /* z-index: 10 !important; */
+}
