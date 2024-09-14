@@ -1,1 +1,1 @@
-A smart bulletprrof vest that senses an impact
+A smart bulletprrof vest that senses an impact.
