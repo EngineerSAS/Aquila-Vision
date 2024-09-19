@@ -4,17 +4,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #2f4f4f;
 }
 /* leftsidecontiner */
 .left-container{
-    background-color: grey;
+    background-color: #2f4f4f;
     width: 20vw;
     height: 90vh;
     /* padding: 50px; */
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     overflow-y: auto;
+    position: relative;
+
 }
 .tabs{
     font-size: 30px;
@@ -25,7 +27,7 @@ body{
 .bpvest1{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     /* height: -8vh; */
 }
@@ -46,6 +48,8 @@ body{
 }
 .one p{
     margin-left: 7px;
+    font-size: 1.2vw;
+    font-weight: 900;
 }
 .bpvest1:hover{
     background-color: black;
@@ -56,7 +60,7 @@ body{
     display: flex;
     flex-direction: row;
     /* margin-top: 20px; */
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
 }
 .bpvest2 img{
@@ -81,10 +85,15 @@ body{
     padding: 0 30px;
     height: 3vh;
 }
+.two p{
+    margin-left: 7px;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
 .bpvest3{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -95,12 +104,18 @@ body{
         background-color: green;
         padding: 0 30px;
         height: 3vh;
+
     }
     .three{
         display: flex;
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest3:hover{
@@ -111,7 +126,7 @@ body{
 .bpvest4{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -128,6 +143,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest4:hover{
@@ -138,7 +158,7 @@ body{
 .bpvest5{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -155,6 +175,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest5:hover{
@@ -165,7 +190,7 @@ body{
 .bpvest6{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -182,6 +207,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest6:hover{
@@ -192,7 +222,7 @@ body{
 .bpvest7{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -209,6 +239,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest7:hover{
@@ -219,7 +254,7 @@ body{
 .bpvest8{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -236,6 +271,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest8:hover{
@@ -246,7 +286,7 @@ body{
 .bpvest9{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -263,6 +303,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest9:hover{
@@ -273,7 +318,7 @@ body{
 .bpvest10{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -290,6 +335,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest10:hover{
@@ -300,7 +350,7 @@ body{
 .bpvest11{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -317,6 +367,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest11:hover{
@@ -327,7 +382,7 @@ body{
 .bpvest12{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -344,6 +399,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest12:hover{
@@ -354,7 +414,7 @@ body{
 .bpvest13{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -371,6 +431,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest13:hover{
@@ -381,7 +446,7 @@ body{
 .bpvest14{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -398,6 +463,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest14:hover{
@@ -408,7 +478,7 @@ body{
 .bpvest15{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -425,6 +495,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest15:hover{
@@ -435,7 +510,7 @@ body{
 .bpvest16{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -452,6 +527,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest16:hover{
@@ -462,7 +542,7 @@ body{
 .bpvest17{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -479,6 +559,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest17:hover{
@@ -489,7 +574,7 @@ body{
 .bpvest18{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -506,6 +591,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest18:hover{
@@ -516,7 +606,7 @@ body{
 .bpvest19{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -533,6 +623,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest19:hover{
@@ -543,7 +638,7 @@ body{
 .bpvest20{
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
+    background-color: #2f4f4f;
     border-radius: 20px;
     img{
         width: 3vw;
@@ -560,6 +655,11 @@ body{
         flex-direction: column;
         margin-left: 10vw;
         padding-top: -7vh;
+        p{
+            margin-left: 7px;
+            font-size: 1.2vw;
+            font-weight: 900;
+         }
     } 
 }
 .bpvest20:hover{
@@ -573,6 +673,10 @@ body{
     color: white;
     gap: 8vw;
     margin-left: 2vw;
+    background-color: #2f4f4f;
+    display: none;
+    position: relative;
+
     
     .firststatusofbpid{
         display: flex;
@@ -616,6 +720,8 @@ main{
     flex-direction: row;
     height: 5vh;
     width: 80vw;
+    position: relative;
+
     .NAf{
         width: 4vw;
     }
@@ -628,7 +734,7 @@ main{
         align-items: center;
         justify-content: space-between;
 
-        background-color: lightgray;
+        background-color: #2f4f4f;
         width: 80vw;
         border-radius: 1rem;
         .buttonmenu{
@@ -636,7 +742,8 @@ main{
             align-items: center;
             font-weight: bold;
             border: none;
-            background-color: grey;
+            /* background-color: grey; */
+            background-color: black;
             color: lightgray;
             border-radius: 8px;
             cursor: pointer;
@@ -667,20 +774,58 @@ main{
 #map {
     height: 60vh;
     width: 80vw;
-    
+    position: relative;
+}
+.stopwatch {
+    text-align: center;
+    background: #4b5320; /* Army Green */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #f5f5f5;
+    border: 2px solid #d3d3d3;
+    position: absolute;
+    top: 5.3vh;
+    button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+        margin: 5px;
+        border: 2px solid #d3d3d3;
+        border-radius: 5px;
+        cursor: pointer;
+        background: #555;
+        color: #d3d3d3;
+    }
+    button:hover {
+        background-color: #666;
+    }
+}
+#display {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border: 3px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 5px;
+    background: #333;
+    color: #f5f5f5;
+
 }
 .rightdown{
     display: flex;
     flex-direction: row;
+    
 }
 
 #alerts{
     width: 30vw;
     padding: 15px 20px;
     
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: #2f4f4f;
     position: relative;
     height: 35vh;
+    border-top-right-radius: 1rem;
     
     overflow: auto;
 }
@@ -701,6 +846,13 @@ h2 {
 #heart-rate {
     font-size: 40px;
     color: #f44336;
+    background-color: #2f4f4f;
+}
+.heartrate{
+    background-color: #2f4f4f;
+    h2{
+        color: black;
+    }
 }
 .status {
     font-size: 20px;
@@ -708,7 +860,7 @@ h2 {
 }
 canvas {
     /* border: 2px solid #444; */
-    background-color: #000;
+    background-color: #2f4f4f;
     display: block;
     margin: px auto;
     
